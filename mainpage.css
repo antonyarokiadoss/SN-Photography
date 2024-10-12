@@ -1,0 +1,152 @@
+body{
+  flex-wrap: nowrap;
+  background-color:#FFD700 ;
+}
+.header {
+    width: 100%;
+    height: auto;
+
+}
+
+a {
+    margin-top: 20px;
+    margin-right: 75px;
+    display: flex;
+    float: right;
+    justify-content: right;
+    height: auto;
+    color: black;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 25px;
+
+}
+
+.logo {
+    margin-top: 20px;
+    display: flex;
+    float: left;
+    max-width: 50%;
+    font-family: "Sofadi One", system-ui;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 25px;
+   
+}
+
+
+#box1,
+#box2,
+#box3,#box4 {
+    width: 250px;
+    height: 500px;
+    margin: 25px;
+    
+    
+    
+}
+
+#box1 {
+    display: flex;
+    float: left;
+    margin-left: 150px;
+
+}
+
+#box1:hover {}
+
+#box2 {
+    display: flex;
+    float: left;
+    margin-left: 50px;
+    
+
+}
+
+#box2:hover {}
+
+#box3 {
+    display: flex;
+    float: left;
+    margin-left: 50px;
+}
+
+#box3:hover {}
+#box4 {
+    display: flex;
+    float: left;
+    margin-left: 50px;
+
+}
+
+#box4:hover {}
+
+.heading {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 75px;
+    margin: 25px;
+    max-width: 60%;
+
+}
+
+.heading:hover {
+    color: #021F64;
+    text-shadow: 5px 5px #00D8FF;
+}
+img{
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 20px;
+    
+    
+}
+img:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 10px 20px #021F64;
+}
+.firsthr{
+    margin-top: 600px;
+
+}
+.enquirytab {
+    margin-left: auto;
+    margin-right: auto;
+    background-color:transparent;
+    border-radius: 30px;
+    border: 2px solid rgb(1, 0, 4);
+    justify-content: center;
+    color:black;
+    padding: 10px;
+    font-weight: bolder;
+    margin-top: 50px;
+    
+
+
+}
+.enquirytab:hover{
+    box-shadow: 10px 10px 20px #021F64;
+}
+
+button {
+    background-color: rgb(28, 31, 108);
+    color: aliceblue;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 8px;
+    
+}
+
+.div1{
+    border-radius: 10px;
+
+}
+.about12{
+    background-color:transparent;
+    color: black;
+}
