@@ -15,7 +15,7 @@ a {
     float: right;
     justify-content: right;
     height: auto;
-    color: black;
+    color:#630C18;
     font-family: "League Spartan", sans-serif;
     font-optical-sizing: auto;
     font-weight: bolder;
@@ -27,6 +27,7 @@ a {
 
 .logo {
     margin-top: 20px;
+    
     display: flex;
     float: left;
     max-width: 50%;
@@ -34,6 +35,7 @@ a {
     font-weight: bold;
     font-style: normal;
     font-size: 25px;
+    color: #630C18;
    
 }
 
@@ -91,12 +93,13 @@ a {
     font-size: 75px;
     margin: 25px;
     max-width: 60%;
+    color: #630C18;
 
 }
 
 .heading:hover {
-    color: #021F64;
-    text-shadow: 5px 5px #00D8FF;
+    color: #630C18;
+    text-shadow: 5px 5px #01FB92 ;
 }
 img{
     object-fit: cover;
@@ -117,11 +120,11 @@ img:hover{
 .enquirytab {
     margin-left: auto;
     margin-right: auto;
-    background-color:transparent;
+    background-color:#630C18;
     border-radius: 30px;
-    border: 2px solid rgb(1, 0, 4);
+   
     justify-content: center;
-    color:black;
+    color:#FFD700;
     padding: 10px;
     font-weight: bolder;
     margin-top: 50px;
@@ -130,12 +133,12 @@ img:hover{
 
 }
 .enquirytab:hover{
-    box-shadow: 10px 10px 20px #021F64;
+     box-shadow: 10px 10px 20px black;
 }
 
 button {
     background-color: rgb(28, 31, 108);
-    color: aliceblue;
+    color:#FFD700;
     cursor: pointer;
     border-radius: 10px;
     padding: 8px;
@@ -149,4 +152,28 @@ button {
 .about12{
     background-color:transparent;
     color: black;
+}
+#Bookusnow{
+    
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #630C18 ;
+    color: #FFD700;
+    
+}
+#call{
+    text-align: right;
+    
+    position: absolute;
+    right: 300px;
+    top:860px
+}
+#Bookusnow:hover{
+     box-shadow: 10px 10px 20px black;
+     
+}
+
+hr{
+    border-color: black;
 }
